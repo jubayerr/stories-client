@@ -11,7 +11,8 @@ export default makeStyles((theme) => ({
         alignItems: 'center',
     },
     heading: {
-        color: 'rgba(0,183,255, 1)',
+        color: '#333230',
+        fontWeight: '700'
     },
     image: {
         marginLeft: '15px',
