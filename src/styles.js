@@ -9,13 +9,16 @@ export default makeStyles((theme) => ({
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
+        // backgroundColor: 'rgba(255, 255, 255, 0.9)'
     },
     heading: {
-        color: '#333230',
-        fontWeight: '700'
+        color: '#595751',
+        fontWeight: '500',
+        opacity: 1
     },
     image: {
         marginLeft: '15px',
+        opacity: 1
     },
     [theme.breakpoints.down('sm')]: {
         mainContainer: {
